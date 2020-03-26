@@ -110,10 +110,20 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #49bf9d !important;
-			text-decoration: none;
+		#spotify-icon:hover {
+			color: #1DB954 !important;
+		} 
+
+		#linkedin-icon:hover {
+			color: #0072b1 !important;
+		}
+
+		#angellist-icon:hover {
+			color: black  !important;
+		}
+
+		#github-icon:hover {
+			color: rgba(0, 0, 0, 0.805) !important;
 		}
 
 	strong, b {
@@ -2068,7 +2078,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				/* content: 'View'; */
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -3206,3 +3216,7 @@ input, select, textarea {
 			}
 
 	}
+
+#three > p {
+	margin-bottom: 2em;
+}
