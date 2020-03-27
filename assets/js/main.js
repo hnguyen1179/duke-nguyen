@@ -9,7 +9,7 @@
 			// Parallax background effect?
 				parallax: true,
 			// Parallax factor (lower = more intense, higher = less intense)
-				parallaxFactor: 40
+				parallaxFactor: 35
 		};
 
 	// Breakpoints.
@@ -73,7 +73,7 @@
 					$header.css('background-position', 'left 0px');
 
 					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', '-80px ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						$header.css('background-position', '-100px ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 					});
 
 				});
@@ -96,7 +96,7 @@
 					popupCloserText: '',
 					popupLoaderText: '',
 					selector: '.work-item a.image',
-					usePopupCaption: true,
+					usePopupCaption: false,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
