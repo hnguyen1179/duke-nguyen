@@ -3256,3 +3256,91 @@ input, select, textarea {
 	font-weight: bolder; 
 	text-decoration: underline;
 }
+
+.skill-headline {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.skills-icons {
+	/* This is the box */
+	padding-top: 13px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: 12px;
+}
+
+.skills-icon {
+	/* These are the individual icons in the box */
+	font-size: 50px;
+	margin: 10px;
+}
+
+.icon-javascript-alt {
+	color: #F0DB4F;
+}
+
+.icon-reactjs {
+	color: #61DBFB;
+}
+
+.icon-nodejs {
+	color: #68A063;
+	transform: translateY(3px);
+}
+
+.icon-css3 {
+	color: #3C99DC;
+}
+
+.icon-html5 {
+	color: #E44D26;
+}
+
+.icon-ruby {
+	color: #D51F06;
+}
+
+.icon-python {
+	/* This is an actual SVG file */
+	height: 50px;
+	transform: translate(-9px, -11px);
+}
+
+.icon-jquery {
+	color: #0868AC;
+}
+
+.icon-d3 {
+	/* This is an actual SVG file */
+	height: 50px;
+	transform: translateY(-11px);
+}
+
+.icon-ruby-on-rails-alt {
+	color: #cc0000;
+}
+
+.icon-postgres {
+	color: #0064a5;
+}
+
+.icon-mongodb {
+	color: #3FA037;
+}
+
+.icon-git {
+	color: #F1502F;
+}
+
+.icon-npm {
+	color: #CC3534;
+}
+
+.icon-heroku {
+	color: #6762A6;
+}
+
+.icon-aws {
+	color: #ff9900;
+}
