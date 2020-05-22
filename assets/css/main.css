@@ -3266,6 +3266,7 @@ input, select, textarea {
 	/* This is the box */
 	padding-top: 13px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-end;
 	margin-left: 12px;
 }
