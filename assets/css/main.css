@@ -3318,6 +3318,11 @@ input, select, textarea {
 	transform: translateY(-11px);
 }
 
+.icon-gatsby {
+	height: 50px;
+	transform: translateY(-11px);
+}
+
 .icon-ruby-on-rails-alt {
 	color: #cc0000;
 }
